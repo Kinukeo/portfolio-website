@@ -1,0 +1,26 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 245, 225, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.link {
+  color: #8b7355;
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-decoration-color: #d8bfd8;
+}
+

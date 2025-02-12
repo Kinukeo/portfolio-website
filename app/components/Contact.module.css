@@ -1,0 +1,51 @@
+.contact {
+  background-color: #aeeeee;
+  padding: 4rem 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #8b7355;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #8b7355;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.submit {
+  background-color: #fadadd;
+  color: #8b7355;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: center;
+}
+
+.submit:hover {
+  background-color: #d8bfd8;
+}
+
